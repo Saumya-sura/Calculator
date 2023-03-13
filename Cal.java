@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Cal {
     public static void main(String[] args) {
         int n1, n2, ch, cal;
-        System.out.println("Enter number 1:-");
+        System.out.print("Enter number 1:-");
         Scanner r = new Scanner(System.in);
         n1 = r.nextInt();
 
-        System.out.println("Enter number 2:-");
+        System.out.print("Enter number 2:-");
         n2 = r.nextInt();
         while (true) {
             System.out.println("Select operation:-");
